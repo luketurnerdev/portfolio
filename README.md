@@ -88,9 +88,21 @@ The main section contains 4 'puzzle pieces', for the different sections of conte
 
     The site's map is fairly simple as it is only a single page:
 
+    ![alt text](https://github.com/luketurnerdev/portfolio/blob/master/screenshots/website-sitemap.png) "Sitemap of the website. ")
+
+    The sitemap shows the initial launchpad section, followed by the puzzle tiles and the fullscreen sections that they lead to.
+
+
+
 
 
 ## Screenshots
+
+This is the top section of the site:
+
+![alt text](https://github.com/luketurnerdev/portfolio/blob/master/screenshots/website%20SS1.png) "Website screenshot, top section")
+
+
 
     
 
@@ -162,13 +174,8 @@ As this was the first project I have written with HTML and CSS, there are defini
 
 A very small amount of JavaScript is used to play the animations of the squares opening and closing. This was determined to be the best solution to the problem (as it often is), but the functionality is simple enough (toggling a class on and off) that I didn't spend too much time on it.
 
+There is a large amount of whitespace to the right and the bottom of the webpage. After 3 days of investigation and asking several people, I still haven't found a solution to this problem. I am going to try to take this as a learning experience for next time, to carefully investigate any CSS styling rules that I use before I employ them, to ensure that the document flows correctly as it becomes more and more complex.
 
-
-Design documentation including,
-    Design process
-    Wireframes
-    Personal logo (optional)
-    Usability considerations
 
 
 Details of planning process including,
@@ -178,8 +185,39 @@ Details of planning process including,
 
 
 
-Short Answer Q&A - Include short answers to the following questions,
-Describe key events in the development of the internet from the 1980s to today (max. 150 words)
+## Short Answer Q&A
+
+
+1. Describe key events in the development of the internet from the 1980s to today (max. 150 words):
+
+In 1982, the TCP/IP protocol was first established, which is currently the most commonly used protocol for devices connecting to the internet, in order for them to be able to talk to eachother under the same set of rules.
+
+In 1986, The National Science Foundation’s NSFNET went online, which allowed the internet to expand effectively throughout the United States.
+
+1990 - Tim Berners-Lee Develops HTML, which still remains as the most prevalent markup language for creating webpages today.
+
+1991 - The World Wide Web (WWW) is released to the public by CERN.
+
+1993 - The White House and the UN establish a presence online.
+
+1998 - The Google search engine is born.
+
+2003 - Myspace, Skype and the Safari web browser are born.
+
+2004-2005 - Facebook, Youtube and Reddit are born. Mozilla Firefox is released.
+
+2006 - Twitter is launched.
+
+
+2. Define and describes the relationship between fundamental aspects of the internet such as: domains, web servers, DNS, and web browsers (max. 150 words):
+
+
+
+
+
+
+
+
 Define and describes the relationship between fundamental aspects of the internet such as: domains, web servers, DNS, and web browsers (max. 150 words)
 Reflect on one aspect of the development of internet technologies and how it has contributed to the world today (max. 150 words)
 
