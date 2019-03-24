@@ -88,8 +88,6 @@ The main section contains 4 'puzzle pieces', for the different sections of conte
 
     The site's map is fairly simple as it is only a single page:
 
-![alt text](https://github.com/luketurnerdev/portfolio/blob/master/screenshots/wireframe-desktop2.png) "Desktop Wireframe 2")
-
 
 
 ## Screenshots
@@ -120,7 +118,7 @@ The main section contains 4 'puzzle pieces', for the different sections of conte
 ## Design
 
 
-    1. Design process
+### Design process
 
     When initially presented with the assignment, I started doing some research of various websites, to see wwhich kind of style I liked. The end product ended up being fairly different, but it was still an interesting exercise in researching different styles of web design.
 
@@ -133,16 +131,36 @@ The main section contains 4 'puzzle pieces', for the different sections of conte
     [screen of singularitynets site]
 
     After getting a general idea of the look of the site, I then proceeded to make wireframes for both desktop and mobile using Balsamiq:
+    
+### Desktop
 
-    [desktop wf]
+    ![alt text](https://github.com/luketurnerdev/portfolio/blob/master/screenshots/wireframe-desktop-1.png) "Desktop Wireframe 1")
 
-    [mobile wf]
+    ![alt text](https://github.com/luketurnerdev/portfolio/blob/master/screenshots/wireframe-desktop2.png) "Desktop Wireframe 2")
 
-    These initial wireframes were quite similar to the singularityNET model, with a hero image appearing on the right hand side, and then various headings running down the page. I ended up combining the two in some sense, with my background image (the leaf in the hand) being the hero image, but it instead appears below the tagline (which was inspired by Matt's website).
+### Mobile
 
-    I then came up with the idea of having a 'puzzle piece' design, where the four pieces of the square revealed different images. I ended up going ahead with this, as I thought it suited the minimalist them of the site. Initially, I had planned to make them appear as actual puzzle pieces (with small notches on the sides), but due to lack of time, I ended up just making them regular div squares that are clickable.
+![alt text](https://github.com/luketurnerdev/portfolio/blob/master/screenshots/mobile-mockup0.1.png) "Mobile Wireframe ")
 
-    Usability considerations:
+
+These initial wireframes were quite similar to the singularityNET model, with a hero image appearing on the right hand side, and then various headings running down the page. I ended up combining the two in some sense, with my background image (the leaf in the hand) being the hero image, but it instead appears below the tagline (which was inspired by Matt's website).
+
+I then came up with the idea of having a 'puzzle piece' design, where the four pieces of the square revealed different images. I ended up going ahead with this, as I thought it suited the minimalist them of the site. Initially, I had planned to make them appear as actual puzzle pieces (with small notches on the sides), but due to lack of time, I ended up just making them regular div squares that are clickable.
+
+### Usability considerations:
+
+The following usability elements were taken into consideration:
+
+    -Alt tags on all images for visually impaired users.
+    -
+
+### Challenges
+
+The design of the website is centred around the design of the 4 puzzle pieces, and as a result I ended up designing some of the more visual aspects first, before the more fundamental information was added. I realised this at the time, but due to the site not having a normal div structure, it was difficult to get around designing the puzzle piece animations first, as this is where the information is primarily displayed to the user.
+
+As this was the first project I have written with HTML and CSS, there are definitely design methods that are not as functional as they could be. For example, I was having a lot of issues using position: relative versus position: absolute, and this caused the flow of the document to behave in unexpected ways. CSS can be difficult, as things appear to be displaying correctly, but behind the scenes, other elements are being shifted to unwanted places. I am used to more logical scripting languages, where an error message might alert you to the fact that something is incorrect.
+
+A very small amount of JavaScript is used to play the animations of the squares opening and closing. This was determined to be the best solution to the problem (as it often is), but the functionality is simple enough (toggling a class on and off) that I didn't spend too much time on it.
 
 
 
