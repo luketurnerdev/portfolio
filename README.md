@@ -22,9 +22,7 @@ both iphones tried didn't work - image "iphone-error-21-mar.png"
 
 ======
 
-Improvements - could change the script for opening tiles etc - make it so that clicking the open box doesn't close them, only the X does
 
-- Make about me more visual, and less text based, in fitting with the rest of the website ( this could be done by adding icons for JS, CSS etc)
 
 ADD user feedback from nik etc in trello
 
@@ -136,11 +134,11 @@ This is the top section of the site:
 
     I got the idea of the 'launch-pad' section at the top of the site from Matthew Williams (http://findmatthew.com/). I admired the simplicity of this feature, because it immediately tells the user what Matthew does, without any clutter:
 
-    [screen of matts site]
+    ![alt text](https://github.com/luketurnerdev/portfolio/blob/master/screenshots/matt.png) "Matt's website")
 
-    I also really admired the flow of SingularityNET's website, with a big hero image at the top of the page and some info on the side. I was initially going to run with this idea, but I didn't really have a logo to display.
+    I also really admired the flow of SingularityNET's website (www.singularitynet.io), with a big hero image at the top of the page and some info on the side. I was initially going to run with this idea, but I didn't really have a logo to display.
 
-    [screen of singularitynets site]
+    ![alt text](https://github.com/luketurnerdev/portfolio/blob/master/screenshots/singularitynet.png) "SingularityNET's website")
 
     After getting a general idea of the look of the site, I then proceeded to make wireframes for both desktop and mobile using Balsamiq:
     
@@ -176,12 +174,22 @@ A very small amount of JavaScript is used to play the animations of the squares 
 
 There is a large amount of whitespace to the right and the bottom of the webpage. After 3 days of investigation and asking several people, I still haven't found a solution to this problem. I am going to try to take this as a learning experience for next time, to carefully investigate any CSS styling rules that I use before I employ them, to ensure that the document flows correctly as it becomes more and more complex.
 
+### Future improvements
+
+- In future, I could change the script for opening tiles etc - make it so that clicking the open box doesn't close them, only the X in the corner does.
+
+- Make the 'about me' page more visual, and less text based, in fitting with the rest of the website ( this could be done by adding icons for JS, CSS etc)
 
 
-Details of planning process including,
-    Project plan & timeline
-    Screenshots of Trello board(s)
 
+
+## Details of planning process
+
+The project was managed through the use of Trello:
+
+    ![alt text](https://github.com/luketurnerdev/portfolio/blob/master/screenshots/trello1.png) "Trello board")
+
+The use of this Trello board differed slightl from the previous assignment, as there was less 'testing' to do - the testing process was ongoing as various elements were placed around the site, etc. There were definitely specific tasks that had to be completed, but the order was a bit more arbitrary, as it wasn't as necessary for some functionality to be working before something else could be added. This meant that I didn't design a project timeline, which led to decreased productivity. However, after getting some feedback from the tutors, I did make a handwritten list of things to fix / improve by the end of that day, and this approach was very helpful.
 
 
 
@@ -211,13 +219,16 @@ In 1986, The National Science Foundation’s NSFNET went online, which allowed t
 
 2. Define and describes the relationship between fundamental aspects of the internet such as: domains, web servers, DNS, and web browsers (max. 150 words):
 
+The basically functionality of the internet revolves around clients and servers. Users (or more specifically, their machines), are clients, and these clients send requests for data to a server, which holds the information. A copy of the information is then sent to the client's machine, so that it can be viewed.
+
+Domains are addresses where web pages are located. For example, the domain name "google.com" points to the IP address "216.58.216.164", and the domain provides a more readable version of the IP address to the user.
+
+A web server uses Hypertext Transfer Protocol (HTTP) to store the files contained within a webpage (such as HTML files images, etc) that need to be displayed on a webpage.
+
+Web browsers are pre-packages pieces of software that allow users to easily access the internet through a graphical user interface (GUI). Some examples are Mozilla Firefox, Google Chrome, Opera, Safari, and Internet Explorer. 
 
 
+3. Reflect on one aspect of the development of internet technologies and how it has contributed to the world today (max. 150 words)
 
-
-
-
-
-Define and describes the relationship between fundamental aspects of the internet such as: domains, web servers, DNS, and web browsers (max. 150 words)
-Reflect on one aspect of the development of internet technologies and how it has contributed to the world today (max. 150 words)
+One aspect of internet technology that has had a significant impact on the world is Crytopcurrency, which is a system of online currency that allows transactions to be made securely in a decentralized way, meaning that users can send tokens, or 'coins' to eachother in a Peer-to-Peer fashion, instead of requiring an intermediary such as a bank. The state of cryptocurrency continues to evolve, with technologies such as Ethereum expanding on the technology by adding features like smart contracts, which are applications that run exactly as they are programmed to do, which lowers the chance of unwanted interference by third parties, censorship and fraud in transactions between users.
 
