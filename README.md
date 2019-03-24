@@ -86,7 +86,7 @@ The main section contains 4 'puzzle pieces', for the different sections of conte
 
     The site's map is fairly simple as it is only a single page:
 
-    ![alt text](https://github.com/luketurnerdev/portfolio/blob/master/screenshots/website-sitemap.png) "Sitemap of the website. ")
+![alt text](https://github.com/luketurnerdev/portfolio/blob/master/screenshots/website-sitemap.png) "Sitemap of the website. ")
 
     The sitemap shows the initial launchpad section, followed by the puzzle tiles and the fullscreen sections that they lead to.
 
@@ -134,19 +134,24 @@ This is the top section of the site:
 
     I got the idea of the 'launch-pad' section at the top of the site from Matthew Williams (http://findmatthew.com/). I admired the simplicity of this feature, because it immediately tells the user what Matthew does, without any clutter:
 
-    ![alt text](https://github.com/luketurnerdev/portfolio/blob/master/screenshots/matt.png) "Matt's website")
+![alt text](https://github.com/luketurnerdev/portfolio/blob/master/screenshots/matt.png) "Matt's website")
 
     I also really admired the flow of SingularityNET's website (www.singularitynet.io), with a big hero image at the top of the page and some info on the side. I was initially going to run with this idea, but I didn't really have a logo to display.
 
     ![alt text](https://github.com/luketurnerdev/portfolio/blob/master/screenshots/singularitynet.png) "SingularityNET's website")
 
+    I made a mood board on pinterest to start getting ideas for the visual design of the site:
+
+![alt text](https://github.com/luketurnerdev/portfolio/blob/master/screenshots/mood-board.png)
+    
+
     After getting a general idea of the look of the site, I then proceeded to make wireframes for both desktop and mobile using Balsamiq:
     
 ### Desktop
 
-    ![alt text](https://github.com/luketurnerdev/portfolio/blob/master/screenshots/wireframe-desktop-1.png) "Desktop Wireframe 1")
+![alt text](https://github.com/luketurnerdev/portfolio/blob/master/screenshots/wireframe-desktop-1.png) "Desktop Wireframe 1")
 
-    ![alt text](https://github.com/luketurnerdev/portfolio/blob/master/screenshots/wireframe-desktop2.png) "Desktop Wireframe 2")
+![alt text](https://github.com/luketurnerdev/portfolio/blob/master/screenshots/wireframe-desktop2.png) "Desktop Wireframe 2")
 
 ### Mobile
 
@@ -159,10 +164,8 @@ I then came up with the idea of having a 'puzzle piece' design, where the four p
 
 ### Usability considerations:
 
-The following usability elements were taken into consideration:
+The website uses alt tags on all its images for visually impaired users. More generally, the site's minimal design allows for easy access for a majority of people wanting to access it.
 
-    -Alt tags on all images for visually impaired users.
-    -
 
 ### Challenges
 
